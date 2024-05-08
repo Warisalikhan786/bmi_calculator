@@ -2,18 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-enum BMIStatus {
-  Underweight,
-  NormalWeight,
-  Overweight,
-  Obesity,
-}
-
-class BMIResult {
-  final double bmi;
-  final BMIStatus status;
-  BMIResult(this.bmi, this.status);
-}
+import '../utils/enums.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
